@@ -7,7 +7,7 @@ const ItemSchema = new mongoose.Schema({
   },
   data: {
     type: String,
-    required: true
+    required: false
   },
   dataArray: {
     type: Object,
